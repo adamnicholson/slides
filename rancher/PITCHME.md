@@ -21,21 +21,16 @@ How do you get it "live"?
 
 > Well, how else am I supposed to do it?
 
+---
+
+### <span style="color: #e49436">Shared hosts and FTP</span>
+
 1. Pay Company Co. for space on a shared server
 2. Upload files via FTP
 3. Point your domain at the server
 3. Profit
 
----
-
-### <span style="color: #e49436">Shared hosts and FTP</span>
-
-Because it was easy, and we didn't know any better
-
-
----
-
-### Then we realised...
+### But..
 
 - Sharing resources with other organisations sucks
 - The server doesn't have everything installed I need
@@ -44,11 +39,15 @@ Because it was easy, and we didn't know any better
 
 ### <span style="color: #e49436">Dedicated & virtual servers</span>
 
+> I know how to do Linux!
+
+---
+
+### <span style="color: #e49436">Dedicated & virtual servers</span>
+
 1. Buy a VPS somewhere
 2. Install PHP/nginx/whatever you like
-3. Upload your app using FTP 
-
-**BONUS POINTS**: Use Vagrant and configure it the same as the server
+3. Upload your app over SFTP 
 
 ---
 
@@ -65,27 +64,37 @@ hello, world!
 
 ### <span style="color: #e49436">Dedicated & virtual servers</span>
 
-- Full control over how the server was setup
-- Improved performance over shared hosts
-- More secure than sharing servers with randoms
+#### **BONUS POINTS**
+##### Use Vagrant and configure it the same as the server
 
 ---
+
+### <span style="color: #e49436">Dedicated & virtual servers</span>
+
+- Control over the server
+- Improved performance
+- Like, security!
 
 ---
 
 ### Then...
 
-- These big-bang deploys are a PITA
+- Infrequent, big-bang deploys are a PITA
 - Do we really need to take the site down for a deploy?
+
+---
+
+#### Facebook told us to "move fast and break things"
+
+#### We need faster and easier deploys!
 
 ---
 
 ### <span style="color: #e49436">Scripted git-based deployments</span>
 
-> Doing FTP uploads, or manual git clones, is a pain..
-
 1. Get a tool like Capistrano, Deployer, or write some bash scripts
-2. Tool automatically clones your resources to the server, build your app, then flip a symlink to the new version
+2. Tell it how to build your app
+3. Point it at your server
 
 ---
 
@@ -94,12 +103,11 @@ $ cap production deploy
 ```
 
 #### This must be it! 
-
 #### How could things be any better?!
 
 ---
 
-## Scripted git-based deployments
+### <span style="color: #e49436">Scripted git-based deployments</span>
 
 - No more downtime on deployments!
 - We can deploy whenever we like at the tap of a key!
