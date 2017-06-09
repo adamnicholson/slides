@@ -15,33 +15,34 @@ How do you get it "live"?
 
 ---
 
-## Shared hosts and FTP
+## Back to the dark ages
 
-### Back to the dark ages
+### <span style="color: #666666">Shared hosts and FTP</span>
 
-> I've built my app - how do I deploy it to production?
+> Well, how else am I supposed to do it?
 
-1. Pay some company for space on a pre-configured shared server
+1. Pay Company Co. for space on a shared server
 2. Upload files via FTP
+3. Point your domain at the server
 3. Profit
 
 ---
 
-## Shared hosts and FTP
+### <span style="color: #666666">Shared hosts and FTP</span>
 
-### Why we did it
+Because it was easy, and we didn't know any better
 
-- It was easy, and we didn't know any better
-
-### Why it sucked
-
-- Shared resources with other organisations
-- Our applications depend on things you don't get on shared hosts
-- Impossible to deploy without downtime
 
 ---
 
-## Dedicated & virtual servers
+### Then we realised...
+
+- Sharing resources with other organisations sucks
+- The server doesn't have everything installed I need
+
+---
+
+### <span style="color: #666666">Dedicated & virtual servers</span>
 
 1. Buy a VPS somewhere
 2. Install PHP/nginx/whatever you like
@@ -62,9 +63,7 @@ hello, world!
 
 ---
 
-## Dedicated & virtual servers
-
-### Why this was good
+### <span style="color: #666666">Dedicated & virtual servers</span>
 
 - Full control over how the server was setup
 - Improved performance over shared hosts
@@ -72,12 +71,21 @@ hello, world!
 
 ---
 
-## Scripted git-based deployments
+---
+
+### Then...
+
+- These big-bang deploys are a PITA
+- Do we really need to take the site down for a deploy?
+
+---
+
+### <span style="color: #666666">Scripted git-based deployments</span>
 
 > Doing FTP uploads, or manual git clones, is a pain..
 
 1. Get a tool like Capistrano, Deployer, or write some bash scripts
-2. Automatically git clone your resources to the server, build your app, then flip the new version on
+2. Tool automatically clones your resources to the server, build your app, then flip a symlink to the new version
 
 ---
 
@@ -85,13 +93,16 @@ hello, world!
 $ cap production deploy
 ```
 
-This must be it. How could things be any better?!
+#### This must be it! 
+
+#### How could things be any better?!
 
 ---
 
 ## Scripted git-based deployments
 
 - No more downtime on deployments!
+- We can deploy whenever we like at the tap of a key!
 
 ---
 
@@ -105,7 +116,7 @@ This must be it. How could things be any better?!
 
 ---
 
-### What's the answer?
+### Where next?
 
 ---
 
