@@ -59,12 +59,6 @@ hello, world!
 - Improved performance over shared hosts
 - More secure than sharing servers with randoms
 
-### Why it sucked
-
-- Downtime on every deploy
-- Even with Vagrant, there were still differences between `dev` and `prod`
-
-
 ---
 
 ## Scripted git-based deployments
@@ -84,24 +78,9 @@ This must be it. How could things be any better?!
 
 ---
 
-
 ## Scripted git-based deployments
 
-### Why this was good
-
 - No more downtime on deployments!
-
-### What still sucked
-
-
-- Difficult to add new tech to your stack
-
-> Hey, can we use Redis for this?
-
-> Ask the ops guys!
-
-- You needed *people* to maintain your servers
-
 
 ---
 
@@ -119,32 +98,21 @@ This must be it. How could things be any better?!
 
 ---
 
-![DOCKER](https://peterjausovec.gallerycdn.vsassets.io/extensions/peterjausovec/vscode-docker/0.0.15/1495693553177/Microsoft.VisualStudio.Services.Icons.Default)
+![DOCKER](http://i.imgur.com/V9MhfBd.png)
+
+### (or more specifically, Containers)
 
 ---
 
-### For the uninitiated
+### For the uninitiated... Containers?
 
-> Docker is the world’s leading software container platform. Developers use Docker to eliminate “works on my machine” problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux and Windows Server apps.
+> A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings
 > 
 > -- <cite>https://www.docker.com/what-docker</cite>
 
 - Docker is a *Container* platform
 
 
----
-
-### Containers?
-
-> A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings
-> 
-> -- <cite>https://www.docker.com/what-docker</cite>
-
----
-
 ### Containers are not Virtual Machines
 
-VM | Container
-----|----
-![VM](https://www.docker.com/sites/default/files/Container%402x.png) | 
-![VM](https://www.docker.com/sites/default/files/Container%402x.png)
+![Docker vs VM](https://i.imgur.com/MJHfm1c.jpg)
