@@ -17,7 +17,7 @@ How do you get it "live"?
 
 ## Back to the dark ages
 
-### <span style="color: #666666">Shared hosts and FTP</span>
+### <span style="color: #e49436">Shared hosts and FTP</span>
 
 > Well, how else am I supposed to do it?
 
@@ -28,7 +28,7 @@ How do you get it "live"?
 
 ---
 
-### <span style="color: #666666">Shared hosts and FTP</span>
+### <span style="color: #e49436">Shared hosts and FTP</span>
 
 Because it was easy, and we didn't know any better
 
@@ -42,7 +42,7 @@ Because it was easy, and we didn't know any better
 
 ---
 
-### <span style="color: #666666">Dedicated & virtual servers</span>
+### <span style="color: #e49436">Dedicated & virtual servers</span>
 
 1. Buy a VPS somewhere
 2. Install PHP/nginx/whatever you like
@@ -63,7 +63,7 @@ hello, world!
 
 ---
 
-### <span style="color: #666666">Dedicated & virtual servers</span>
+### <span style="color: #e49436">Dedicated & virtual servers</span>
 
 - Full control over how the server was setup
 - Improved performance over shared hosts
@@ -80,7 +80,7 @@ hello, world!
 
 ---
 
-### <span style="color: #666666">Scripted git-based deployments</span>
+### <span style="color: #e49436">Scripted git-based deployments</span>
 
 > Doing FTP uploads, or manual git clones, is a pain..
 
