@@ -4,6 +4,17 @@
 
 ---
 
+### First, a history lesson.
+
+The year is 2005. 
+
+You've built your first website.
+
+How do you get it "live"?
+
+
+---
+
 ## Shared hosts and FTP
 
 ### Back to the dark ages
