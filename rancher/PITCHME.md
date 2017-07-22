@@ -35,18 +35,11 @@
 In their (docker.com) own words:
 
 > Developers use Docker to eliminate “works on my machine” problems
-
 > ...
-
-
 > eliminate “works on my machine” problem
-
 > ...
-
 >  manage apps side-by-side in isolated containers
-
 > ...
-
 > build agile software delivery pipelines to ship new features faster, more securely and with confidence
 
 ---
