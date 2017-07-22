@@ -145,15 +145,16 @@ What we need to achieve:
 
 ---
 
+---
+
 ## Container orchestration?!
 
 > Kubernetes also allows developers to (move) from a host-centric infrastructure to a container-centric infrastructure,
 >
 > -- <cite>https://kubernetes.io</cite>
 
-In a host-centric infrastructure, hosts (servers) are special snowflakes.
-
-In container-centric infrastructure, no host (server) is special.
+- In a host-centric infrastructure, hosts (servers) are special snowflakes.
+- In container-centric infrastructure, no host (server) is special.
 
 ---
 
