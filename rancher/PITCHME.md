@@ -133,7 +133,7 @@ For your personal blog, you should probably just do this.
 
 ---
 
-## Going live when the thing you are building is important
+## When the thing you are building is important
 
 What we need to achieve:
 
@@ -141,7 +141,6 @@ What we need to achieve:
   - Zero downtime deployments
   - Easily scalable
 - Reliability:
-  - Reproducable environments
   - Handle failures
 
 ---
@@ -150,7 +149,7 @@ What we need to achieve:
 
 > Kubernetes also allows developers to (move) from a host-centric infrastructure to a container-centric infrastructure,
 >
-> -- <cite>https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/#why-do-i-need-kubernetes-and-what-can-it-do</cite>
+> -- <cite>https://kubernetes.io</cite>
 
 In a host-centric infrastructure, hosts (servers) are special snowflakes.
 
