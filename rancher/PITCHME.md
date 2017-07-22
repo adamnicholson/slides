@@ -110,8 +110,6 @@ docker pull my-app:latest
 docker run -p 80:80 my-app:latest
 ```
 
-(*Demo*)
-
 ---
 
 ## You just learned Docker!
@@ -124,12 +122,14 @@ docker run -p 80:80 my-app:latest
 
 ---
 
-## Going live: The way *you* should probably do it
+## Going live with Docker
+### The naive way
 
-- Manually build/push your image, manually pull it to the server
+- Build & push your image
+- Manually SSH to server, pull & run it
 - Write some bash scripts to do that
 
-Seriously, for personal or non-important apps, you should probably just do this.
+For your personal blog, you should probably just do this.
 
 ---
 
