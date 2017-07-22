@@ -157,6 +157,8 @@ What we need to achieve:
 
 ## Container orchestration?!
 
+Orchestrators take care of your containers in production
+
 - Deploying and upgrading
 - Checking application health
 - Networking between services and the outside world
