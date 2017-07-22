@@ -28,6 +28,17 @@
 >
 > -- <cite>https://www.docker.com/what-docker</cite>
 
+
+---
+
+## So.. like virtual machines?
+
+No. Topic for another day, but in short:
+
+- VMs are whole operating systems with fixed resources; containers share resources
+- Containers are optimally *single processes*, with *no state*
+- If VMs are houses, containers are flats in apartment buildings
+
 ---
 
 ## Ok.. Why?!
@@ -41,16 +52,6 @@ In their (docker.com) own words:
 > manage apps side-by-side in isolated containers
 > ...
 > build delivery pipelines to ship features faster, more securely and with confidence
-
----
-
-## So.. like virtual machines?
-
-No. Topic for another day, but in short:
-
-- VMs are whole operating systems with fixed resources; containers share resources
-- Containers are optimally *single processes*, with *no state*
-- If VMs are houses, containers are flats in apartment buildings
 
 ---
 
