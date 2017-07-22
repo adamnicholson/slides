@@ -44,6 +44,16 @@ In their (docker.com) own words:
 
 ---
 
+## So.. like virtual machines?
+
+No. Topic for another day, but in short:
+
+- VMs are whole operating systems with fixed resources; containers share resources
+- Containers are optimally *single processes*, with *no state*
+- If VMs are houses, containers are flats in apartment buildings
+
+---
+
 ## How to Docker
 
 1. Write some code
